@@ -83,7 +83,7 @@ You can view and install the extension directly from your favorite marketplace:
 
 If you downloaded the `.vsix` file directly, you can install it using:
 ```bash
-code --install-extension zenkai-vscode-extension-0.0.5.vsix
+code --install-extension zenkai.zenkai-vscode-extension
 ```
 
 ---
