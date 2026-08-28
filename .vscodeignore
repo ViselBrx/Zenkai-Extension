@@ -1,0 +1,13 @@
+.env
+.env.*
+src/**
+tsconfig.json
+tsconfig.*.json
+node_modules/**
+*.vsix
+.git/**
+.github/**
+.codex/**
+.agents/**
+README.md
+package-lock.json

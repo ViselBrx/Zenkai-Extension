@@ -2,8 +2,12 @@
     "name": "zenkai-vscode-extension",
     "displayName": "Zenkai Theme",
     "description": "A vibrant, neon-infused dark theme ecosystem for VS Code inspired by the Zenkai Universe.",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "icon": "assets/icon.png",
+    "main": "./out/extension.js",
+    "activationEvents": [
+        "onStartupFinished"
+    ],
     "engines": {
         "vscode": "^1.80.0"
     },
@@ -15,7 +19,39 @@
         "type": "git",
         "url": "https://github.com/ViselBrx/Zenkai-VSCode-Extension"
     },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./"
+    },
     "contributes": {
+        "commands": [
+            {
+                "command": "zenkaiTheme.activateLicense",
+                "title": "Zenkai: Activate Pro License Key"
+            },
+            {
+                "command": "zenkaiTheme.checkLicense",
+                "title": "Zenkai: Check License Status"
+            }
+        ],
+        "configuration": {
+            "title": "Zenkai Theme",
+            "properties": {
+                "zenkaiTheme.licenseKey": {
+                    "type": "string",
+                    "default": "",
+                    "description": "Enter your Zenkai Pro license key",
+                    "order": 1
+                },
+                "zenkaiTheme.proEnabled": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Status of Zenkai Pro (managed automatically)",
+                    "order": 2
+                }
+            }
+        },
         "themes": [
             {
                 "label": "Zenkai Dark",
@@ -76,8 +112,21 @@
                 "label": "Zenkai Stellar Abyss",
                 "uiTheme": "vs-dark",
                 "path": "./themes/zenkai-stellar-abyss.json"
+            },
+            {
+                "label": "Zenkai Christmas",
+                "uiTheme": "vs-dark",
+                "path": "./themes/zenkai-christmas.json"
             }
         ]
     },
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "dodopayments": "^2.48.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "@types/vscode": "^1.80.0",
+        "typescript": "^5.2.2"
+    }
 }
