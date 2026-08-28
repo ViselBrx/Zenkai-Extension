@@ -65,42 +65,25 @@ Designed to make you feel like you're floating in the vacuum of space.
 
 ## Installation
 
-### From VS Code Marketplace
+### From VS Code Marketplace and IDE's Open VSX Registry
 
 1. Open **VS Code** and go to **Extensions** (`Ctrl+Shift+X` or `Cmd+Shift+X`).
 2. Search for **`Zenkai Theme`**.
 3. Click **Install**.
 4. Go to **File > Preferences > Color Theme** and select your favorite Zenkai theme from the list (e.g., **Zenkai Stellar Abyss**).
 
-### Command Line Installation
+### Official Marketplace Links
 
-Depending on your IDE, you can install the extension directly from the terminal:
+You can view and install the extension directly from your favorite marketplace:
 
-**Visual Studio Code**
-```bash
-code --install-extension zenkai.zenkai-vscode-extension
-```
-
-**Antigravity IDE**
-```bash
-agy ext install zenkai.zenkai-vscode-extension
-```
-
-**VSCodium (Open VSX)**
-```bash
-codium --install-extension zenkai.zenkai-vscode-extension
-```
-
-**Cursor**
-```bash
-cursor --install-extension zenkai.zenkai-vscode-extension
-```
+- [**VS Code Marketplace**](https://marketplace.visualstudio.com/items?itemName=Zenkai.zenkai-vscode-extension)
+- [**Open VSX Registry**](https://open-vsx.org/extension/zenkai/zenkai-vscode-extension) (For Antigravity IDE, VSCodium, Cursor, and other open-source editors)
 
 ### Manual VSIX Installation
 
 If you downloaded the `.vsix` file directly, you can install it using:
 ```bash
-code --install-extension zenkai-vscode-extension-0.0.2.vsix
+code --install-extension zenkai-vscode-extension-0.0.3.vsix
 ```
 
 ---
