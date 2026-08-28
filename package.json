@@ -2,7 +2,7 @@
     "name": "zenkai-vscode-extension",
     "displayName": "Zenkai Theme",
     "description": "A vibrant, neon-infused dark theme ecosystem for VS Code inspired by the Zenkai Universe.",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "icon": "assets/icon.png",
     "engines": {
         "vscode": "^1.80.0"

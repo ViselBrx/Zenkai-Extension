@@ -23,7 +23,7 @@ This official VS Code extension brings the vibrant cyberpunk and neon aesthetic 
 <div align="center">
 
 ## JavaScript
-  <img src="assets/previw-javascript.png" width="100%" alt="JavaScript Preview" />
+  <img src="assets/preview-javascript.png" width="100%" alt="JavaScript Preview" />
 
 ## HTML
   <img src="assets/preview-html.png" width="100%" alt="HTML Preview" />
@@ -83,7 +83,7 @@ You can view and install the extension directly from your favorite marketplace:
 
 If you downloaded the `.vsix` file directly, you can install it using:
 ```bash
-code --install-extension zenkai-vscode-extension-0.0.3.vsix
+code --install-extension zenkai-vscode-extension-0.0.5.vsix
 ```
 
 ---
