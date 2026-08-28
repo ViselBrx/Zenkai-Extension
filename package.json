@@ -1,0 +1,27 @@
+{
+  "name": "zenkai-vscode-extension",
+  "displayName": "Zenkai Theme",
+  "description": "A dark theme for VS Code based on the colors of the Zenkai website.",
+  "version": "0.0.1",
+  "icon": "assets/icon.png",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "publisher": "zenkai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ViselBrx/Zenkai-VSCode-Extension"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Zenkai Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zenkai-color-theme.json"
+      }
+    ]
+  }
+}
