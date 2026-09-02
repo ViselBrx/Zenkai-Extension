@@ -1,6 +1,8 @@
 .env
 .env.*
 src/**
+out/**
+.vscode/**
 tsconfig.json
 tsconfig.*.json
 node_modules/**
@@ -11,3 +13,5 @@ node_modules/**
 .agents/**
 README.md
 package-lock.json
+pro/**
+docs/**

@@ -2,3 +2,6 @@
 node_modules/
 out/
 *.vsix
+
+# O pacote Pro é desenvolvido localmente ou em um repositório privado.
+pro/

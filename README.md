@@ -54,12 +54,11 @@ Each theme in the Standard Collection uses a specific primary neon accent color 
 
 *(Note: The legacy "Zenkai Dark" theme is still available for backwards compatibility.)*
 
-### ✨ Special Theme: Stellar Abyss ✨
+### Zenkai Theme Pro
 
-Designed to make you feel like you're floating in the vacuum of space.
-- **Primary Accent**: Stellar Blue (`#A6CCFF`)
-- **Background**: True near-black space tones.
-- **Vibe**: Nebula purples, starlight whites, and cool cosmic blues. It offers a cooler, more ethereal palette compared to the aggressive neon of the standard collection.
+The separate **Zenkai Theme Pro** extension contains premium color themes,
+neon developer file icons, and a custom product icon theme. It is distributed
+separately and activated with a Dodo Payments license.
 
 ---
 
@@ -70,7 +69,7 @@ Designed to make you feel like you're floating in the vacuum of space.
 1. Open **VS Code** and go to **Extensions** (`Ctrl+Shift+X` or `Cmd+Shift+X`).
 2. Search for **`Zenkai Theme`**.
 3. Click **Install**.
-4. Go to **File > Preferences > Color Theme** and select your favorite Zenkai theme from the list (e.g., **Zenkai Stellar Abyss**).
+4. Go to **File > Preferences > Color Theme** and select your favorite Free Zenkai theme from the list (e.g., **Zenkai Neon Cyan**).
 
 ### Official Marketplace Links
 
