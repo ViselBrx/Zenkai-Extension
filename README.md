@@ -79,7 +79,7 @@ The extension is also available through the [Open VSX Registry](https://open-vsx
 ### Manual VSIX installation
 
 ```bash
-code --install-extension zenkai-vscode-extension-0.0.7.vsix
+code --install-extension zenkai.zenkai-vscode-extension
 ```
 
 ## Recommended Setup
