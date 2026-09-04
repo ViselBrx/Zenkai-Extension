@@ -1,0 +1,89 @@
+{
+  "name": "zenkai-vscode-extension-pro",
+  "displayName": "Zenkai Theme Pro",
+  "description": "Premium neon developer themes and icon system for Visual Studio Code.",
+  "version": "0.0.1",
+  "publisher": "zenkai",
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "extensionDependencies": [
+    "zenkai.zenkai-vscode-extension"
+  ],
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "generate:file-icons": "node ./file-icons/generate-file-icons.mjs",
+    "generate:product-icons": "node ./product-icons/generate-product-icon-theme.mjs"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "zenkaiPro.activateLicense",
+        "title": "Zenkai Pro: Activate License"
+      },
+      {
+        "command": "zenkaiPro.checkLicense",
+        "title": "Zenkai Pro: Check License"
+      },
+      {
+        "command": "zenkaiPro.deactivateLicense",
+        "title": "Zenkai Pro: Deactivate License"
+      }
+    ],
+    "configuration": {
+      "title": "Zenkai Theme Pro",
+      "properties": {
+        "zenkaiPro.licenseKey": {
+          "type": "string",
+          "default": "",
+          "description": "Dodo Payments license key for Zenkai Pro",
+          "order": 1
+        }
+      }
+    },
+    "themes": [
+      {
+        "label": "Zenkai Stellar Abyss",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zenkai-stellar-abyss.json"
+      },
+      {
+        "label": "Zenkai Christmas",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zenkai-christmas.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "zenkai-pro-file-icons",
+        "label": "Zenkai Pro Neon File Icons",
+        "path": "./file-icons/zenkai-pro-file-icon-theme.json"
+      }
+    ],
+    "productIconThemes": [
+      {
+        "id": "zenkai-pro-product-icons",
+        "label": "Zenkai Pro Developer Icons",
+        "path": "./product-icons/zenkai-pro-product-icon-theme.json"
+      }
+    ]
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "dodopayments": "^2.48.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.80.0",
+    "typescript": "^5.2.2"
+  }
+}

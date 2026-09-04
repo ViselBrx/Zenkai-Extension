@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs><filter id="glow" x="-45%" y="-45%" width="190%" height="190%"><feGaussianBlur stdDeviation=".5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter><clipPath id="content-safe"><rect x="4.2" y="4.2" width="23.6" height="23.6" rx="3.8"/></clipPath></defs>
+  <rect x="1.35" y="1.35" width="29.3" height="29.3" rx="7.3" fill="none" stroke="#28F5FF" stroke-width="1.2" opacity=".45" filter="url(#glow)"/>
+  <rect x="1.75" y="1.75" width="28.5" height="28.5" rx="7" fill="#28F5FF" stroke="#28F5FF" stroke-width=".45"/>
+  <rect x="2.75" y="2.75" width="26.5" height="26.5" rx="6.3" fill="#0B0B0C"/>
+  <g clip-path="url(#content-safe)"><g transform="translate(0 -1.5)"><path d="M7 13h5l2-2h11v10.5A2.5 2.5 0 0 1 22.5 24h-15z" fill="none" stroke="#28F5FF" stroke-width="2" stroke-linejoin="round"/></g></g>
+</svg>
