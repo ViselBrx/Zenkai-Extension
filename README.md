@@ -61,7 +61,7 @@ The free extension includes 11 color variants built on top of the signature ultr
 
 ### Zenkai Theme Pro
 
-The separate [**Zenkai Theme Pro**](Zenkai-Extension-Pro/README.md) package adds premium color themes, a neon developer file icon system and a custom product icon theme for the VS Code workbench.
+The separate **Zenkai Theme Pro** package adds premium color themes, a neon developer file icon system and a custom product icon theme for the VS Code workbench.
 
 ## Installation
 
